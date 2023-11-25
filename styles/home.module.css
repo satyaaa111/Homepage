@@ -10,36 +10,6 @@
     display: flex;
 }
 
-@media (max-width: 500px) {
-    .back{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .truck{
-       padding-bottom: 20px;
-    }
-    .welcome{
-        padding-bottom: 50px;
-       padding-left: 0px;
-       display: flex;
-       flex-direction: column;
-       justify-content: left;
-       margin-left: 0px;
-    }
-    .wt{
-        margin-left: 0vw;
-    }
-    .truckimg{
-        
-    }
-    .dnks{
-       font-size: 15vw;
-       padding-top: 20px;
-       padding-bottom: 0;
-    }
-
-  }
-
 .truck{
   flex: 1;
 }
@@ -48,9 +18,21 @@
     display:inline;
     font-size: 1.95vw;
     font-family: 'Gothic A1',sans-serif;
-    font-weight: '700';
+    font-weight: 700;
     background-color: #2EB162;
 }
+
+@media (max-width: 500px) {
+    .join{
+        font-size: 1rem;
+        padding-left: 80px;
+        padding-right: 80px;
+        word-spacing: .2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }
+
 .welcome{
     flex: 1;
     display: grid;
@@ -58,13 +40,14 @@
 }
 
 .wt{
-    font-size: 3vw;
     font-family: "gothik A1",sans-serif;
     font-weight: 700;
     color: black;
+    font-size: 2.4rem;
+    font-weight: 700;
     margin-left: 4vw;
+    line-height: 1.1;
 }
-
 
 .dnks{
     color: #868686;
@@ -75,17 +58,71 @@
     position: relative;
     top: 5.85vw;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .dnks{
         top: 5vw;
     }
+    .wt{
+        font-size: 1.4rem;
+    }
+  }
+  @media (max-width: 650px) {
+    .wt{
+        font-size: 1.1rem;
+    }
   }
 .agri{
-    font-size: 3vw;
     font-family: "gothik A1",sans-serif;
-    font-weight: 700;
     color: #009E54;
 }
+.visible{
+    opacity: 1;
+  
+}
+.hidden{
+    opacity: 0;
+}
+
+.carouselLines{
+    color: #009E54;
+    font-family: 'Gothic A1';
+    font-weight: 700;
+}
+
+
+@media (max-width: 500px) {
+    .back{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .truck{
+       padding-bottom: 20px;
+    }
+    .welcome{
+        padding-bottom: 30px;
+       display: grid;
+       margin-left: 0px;
+       font-size: 20rem;
+    }
+    .wt{
+        margin-left: 0px; 
+        font-size: 1.5rem;
+    }
+    .truckimg{
+        
+    }
+    .dnks{
+       font-size: 10px;
+       padding-bottom: 0;
+    }
+
+  }
+
+
+
+
+
+
 
 .one{
     color: #868686;
@@ -93,6 +130,7 @@
     font-family: 'Gothic A1',sans-serif;
     font-weight: 700;
 }
+
 .stats{
     height: 19.5vw;
     display: flex;
@@ -121,6 +159,10 @@
   grid-template-columns: auto auto auto;
   gap: .6vw;
 }
+
+.Carousel{
+    
+}
 .empty1{
     flex: 0.5;;
 }
@@ -130,6 +172,7 @@
     font-size: 1.1vw;
     font-weight: 600;
 }
+
 .two{
     height: 14vw;
 }
@@ -144,12 +187,19 @@
         height: 20vw;
     }
   }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .three{
-        height: 24vw;
+        height: 250px;
+    }
+    .stats{
+        height: 200px;
     }
   }
-
+  @media (max-width: 1000px) {
+    .three{
+        height: 180px;
+    }
+  }
 
 .four{
     flex: 2;
@@ -224,8 +274,7 @@
     font-family: 'Gothic A1',sans-serif;
     font-weight: 700;
   }
-  .foot{
-    height: 27vw;
+  .footerr{
     background-color: #2EB162;
   }
   .footerlogo{
@@ -245,27 +294,77 @@
     font-size: 1.7vw;
     font-family: 'Gothic A1',sans-serif;
     font-weight: 400;
-    padding-top: 5.2vw;
   }
-  @media (max-width: 1550px) {
+  .foot{
+    display: flex;
+    flex-direction: column;
+  }
+  .footerdownload{
+    flex: 2;
+  }
+  .footerlogo{
+    flex: 3;
+  }
+  .fonts{
+     flex:10;
+  }
+  .line{
+     flex: 0;
+  }
+  .footerterms{
+    flex: 10;
+  }
+
+
+  @media (max-width: 1000px) {
+    .one{
+        font-size: 25px;
+    }
+    .stats{
+        height: 200px;
+    }
+    .ourStates{
+        font-size: 20px;
+    }
+    .ourContent>div{
+        font-size: 8px;
+    }
+    .partners{
+        font-size: 30px;
+    }
+    .footerdownload{
+        font-size: 15px;
+    }
     .footerterms{
-        padding-top: 1.3vw;
+        font-size: 15px;
     }
-  }
-  @media (max-width: 1200px) {
-    .foot{
-       height: 45vw;
+    .seven{
+        font-size: .6rem;
     }
-    .footerterms{
-        padding-top: 5vw;
+    .six{
+        font-size: .7rem;
     }
-  }
+    .eight{
+        font-size: .4rem;
+    }
+}
+
   @media (max-width: 1100px) {
     .partners>div>img{
        padding: 3px;
     }
     .partners{
         margin-bottom: 50px;
+    }
+}
+@media (max-width: 850px) {
+    .footerlogo img{
+        height: 39px;
+    }
+}
+@media (max-width: 650px) {
+    .footerlogo img{
+        height: 30px;
     }
 }
  
