@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+.getd{
+    color: #868686;
+    font-size: 3vw; 
+    font-family: 'Gothic A1', sans-serif;
+}
+.back{
+    background-color: #F0F0F0;
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .back{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .truck{
+       padding-bottom: 20px;
+    }
+    .welcome{
+        padding-bottom: 50px;
+       padding-left: 0px;
+       display: flex;
+       flex-direction: column;
+       justify-content: left;
+       margin-left: 0px;
+    }
+    .wt{
+        margin-left: 0vw;
+    }
+    .truckimg{
+        
+    }
+    .dnks{
+       font-size: 15vw;
+       padding-top: 20px;
+       padding-bottom: 0;
+    }
+
+  }
+
+.truck{
+  flex: 1;
+}
+
+.join{
+    display:inline;
+    font-size: 1.95vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: '700';
+    background-color: #2EB162;
+}
+.welcome{
+    flex: 1;
+    display: grid;
+    font-family: "gothik A1",sans-serif;
+}
+
+.wt{
+    font-size: 3vw;
+    font-family: "gothik A1",sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-left: 4vw;
+}
+
+
+.dnks{
+    color: #868686;
+    font-size: 1.3vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-family: '700';
+    word-spacing: .2rem;
+    position: relative;
+    top: 5.85vw;
+}
+@media (max-width: 1000px) {
+    .dnks{
+        top: 5vw;
+    }
+  }
+.agri{
+    font-size: 3vw;
+    font-family: "gothik A1",sans-serif;
+    font-weight: 700;
+    color: #009E54;
+}
+
+.one{
+    color: #868686;
+    font-size: 3.5vw; 
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 700;
+}
+.stats{
+    height: 19.5vw;
+    display: flex;
+    border-radius: 0.65vw;
+    background-color: #2EB162;
+}
+.stateNumbers{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.statePhoto{
+   flex: 2;
+   border-top-right-radius: 0.65vw ;
+   border-bottom-right-radius: 0.65vw ;
+}
+.ourStates{
+   flex:3;
+   font-size: 2.9vw;
+   font-weight: 600;
+   padding-left: 2vw;
+}
+.ourContent{
+  flex: 6;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: .6vw;
+}
+.empty1{
+    flex: 0.5;;
+}
+.ourContent>div{
+    text-align: left;
+    padding-left: 2.8vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.two{
+    height: 14vw;
+}
+.three{
+    display: flex;
+    height: 17vw;
+    background-color: #2EB162;
+}
+
+@media (max-width: 1500px) {
+    .three{
+        height: 20vw;
+    }
+  }
+@media (max-width: 900px) {
+    .three{
+        height: 24vw;
+    }
+  }
+
+
+.four{
+    flex: 2;
+    display: flex;
+}
+.five{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.six{
+    color: white;
+    font-size: 2.275vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 700;
+    flex: 4;
+}
+.seven{
+    color: #EAEAEA;
+    font-size: 1.365vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 400;
+    flex: 4;
+}
+.eight{
+    flex: 1;
+    color: #EAEAEA;
+    font-size: 1.365vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 400;
+}
+.nine{
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.ten{
+    flex: 1;
+}
+.eleven {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  .thirteen {
+    width: 30vw;
+    height: 84%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+  }
+  .twelve{
+    border: 1px solid black;
+    border-radius: .2vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .partners{
+    color: #868686;
+    font-size: 3.055vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 700;
+  }
+  .foot{
+    height: 27vw;
+    background-color: #2EB162;
+  }
+  .footerlogo{
+
+  }
+  .footerdownload{
+    color: white;
+    font-size: 1.7vw;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+  }
+  .line{
+      border-style: solid;
+  }
+  .footerterms{
+    color: white;
+    font-size: 1.7vw;
+    font-family: 'Gothic A1',sans-serif;
+    font-weight: 400;
+    padding-top: 5.2vw;
+  }
+  @media (max-width: 1550px) {
+    .footerterms{
+        padding-top: 1.3vw;
+    }
+  }
+  @media (max-width: 1200px) {
+    .foot{
+       height: 45vw;
+    }
+    .footerterms{
+        padding-top: 5vw;
+    }
+  }
+  @media (max-width: 1100px) {
+    .partners>div>img{
+       padding: 3px;
+    }
+    .partners{
+        margin-bottom: 50px;
+    }
+}
+ 
+
